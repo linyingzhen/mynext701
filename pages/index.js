@@ -1,1 +1,3 @@
-export default () => <div>Welcome to next.js!</div>
+import Page from '../src/Index';
+
+export default Page;
