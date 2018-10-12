@@ -1,3 +1,3 @@
-import Page from '../../src/User/Info';
+import Page from '../../src/User/SetInfo';
 
 export default Page;
