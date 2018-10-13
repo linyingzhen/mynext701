@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{211:function(n,e,t){__NEXT_REGISTER_PAGE("/user/setinfo",function(){return n.exports=t(238),{page:n.exports.default}})},238:function(n,e,t){"use strict";t.r(e);var u=t(1),o=t.n(u),r=function(){return o.a.createElement("div",null,"user setInfo")};e.default=r}},[[211,1,0]]]);

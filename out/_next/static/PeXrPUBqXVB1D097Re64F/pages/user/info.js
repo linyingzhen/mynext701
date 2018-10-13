@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{210:function(n,e,t){__NEXT_REGISTER_PAGE("/user/info",function(){return n.exports=t(237),{page:n.exports.default}})},237:function(n,e,t){"use strict";t.r(e);var u=t(1),o=t.n(u),r=function(){return o.a.createElement("div",null,"user info")};e.default=r}},[[210,1,0]]]);
