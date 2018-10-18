@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>商品详情</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/product.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<!--头部banner-->
+<div class="product-head">
+	<div class="banner">
+		<ul class="banner-img">
+			<li><img src="img/u288.png"/></li>
+			<!--<li><img src="img/banner2.png"/></li>
+			<li><img src="img/banner3.png"/></li>-->
+		</ul>
+		<ul class="banner-con">
+			<li class="on">1</li>
+			<li class="">2</li>
+			<li class="">3</li>
+		</ul>
+	</div>
+	<div class="close-product">
+		<a class="fl" href="index.html"><i class="iconfont">&#xe617;</i></a>
+		<a class="fr"><i class="iconfont">&#xe618;</i></a>
+		<a class="fr" href="shopping.html"><i class="iconfont">&#xe639;</i></a>
+	</div>
+	<!--<img class="close-product" src="img/u539.png"/>-->
+</div>
+	<!--1.超市商品-->
+	<div class="product-details">
+		<div class="product-code">
+			<div class="product-code-l fl">
+				<div class="product-code-l-price">
+					<span>￥<span style="font-size: .4rem;">38</span>.00</span>
+					<span class="label-btn">超市推荐</span>
+				</div>
+				<div class="product-code-l-ff">
+					<span class="chaoshi"><i class="iconfont">&#xe630;</i></span>
+					<span> 喜伴嘉大  | </span><span class="gray-txt"> 生鲜食品折扣超市</span>
+				</div>
+			</div>
+			<div class="product-code-r fr">
+				<img src="img/u522.png"/>
+				<span>9898317230137017203</span>
+			</div>
+		</div>
+		<div class="product-txt">
+			<p>美国进口 Setton Farm 开心果，休闲零食坚果干货干果 </p>
+		</div>
+		<div class="product-ul">
+			<ul>
+				<li>
+					<p>225g ×1袋</p>
+					<p class="gray-txt">规格</p>
+				</li>
+				<li>
+					<p>北京</p>
+					<p class="gray-txt">产地</p>
+				</li>
+				<li>
+					<p>包</p>
+					<p class="gray-txt">单位</p>
+				</li>
+				<li>
+					<p>正品</p>
+					<p class="gray-txt">等级</p>
+				</li>
+				<li>
+					<p>原味</p>
+					<p class="gray-txt">零食食品</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--2.图腾商品-->
+	<div class="product-details">
+		<div class="product-code">
+			<div class="product-code-l fl">
+				<div class="product-code-l-price">
+					<span>￥<span style="font-size: .4rem;">19</span>.90</span>
+					<span class="label-btn">本店特价</span>
+				</div>
+				<div class="product-code-l-ff">
+					<span class="chaoshi"><i class="iconfont">&#xe628;</i></span>
+					<span> 凤凰图腾  | </span><span class="gray-txt"> 米苔目  | 碳培盐焗鸡 | 高山茶</span>
+				</div>
+			</div>
+		</div>
+		<div class="product-txt">
+			<p>鼓油风爪饭套餐 </p>
+			<p>送金单丛一杯</p>
+		</div>
+		<div class="product-ul">
+			<ul>
+				<li>
+					<p>250克</p>
+					<p class="gray-txt">规格</p>
+				</li>
+				<li>
+					<p>份</p>
+					<p class="gray-txt">单位</p>
+				</li>
+				<li>
+					<p>白领套餐</p>
+					<p class="gray-txt">品类</p>
+				</li>
+				<li>
+					<p>微辣</p>
+					<p class="gray-txt">口味</p>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	<div class="product-foot">
+		<p class="shop-youhui red-txt fl">本店优惠</p>
+		<p class="youhuineirong fl">单笔消费  ： 满60元，减<span class="red-txt">5</span>元</p>
+	</div>		
+	<!--介绍图片-->
+	<div class="product-des">
+		<img src="img/u687.png"/>
+		<img src="img/u689.png"/>
+		<img src="img/u691.png"/>
+		<img src="img/u693.png"/>
+		<img src="img/u695.png"/>
+	</div>	
+	<!--底边栏-->
+	<div class="zhanwei" style="height: 1rem;"></div>
+	<div class="payment">
+		<div class="payment-title">
+			<a class="fl" href="#">
+				<i class="iconfont">&#xe62b;</i>
+				<span class="fl">
+					店铺
+				</span>
+			</a>
+			<a class="fl" href="#">
+				<i class="iconfont">&#xe612;</i>
+				<span class="fl">
+					客服
+				</span>
+			</a>
+			<a class="fr btn-r">加入购物车</a>
+			<a class="fr btn-l">立即购买</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	var box=document.getElementsByClassName("product-des")[0].getElementsByTagName("img");
+	var imgs=document.getElementsByTagName("img");
+	//var img=box.;
+	//var img=document.imgs.;
+	console.log(imgs);
+	console.log(box);
+	//console.log(img);
+</script>
+</html>

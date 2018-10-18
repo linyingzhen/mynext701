@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>提现</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href= "css/withdrawal.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+<!--头部-->
+<header>
+	<div class="s-header">
+		<a href="mine.html"><i class="iconfont goleft">&#xe617;</i></a>
+		<p>提现</p>
+	</div>
+</header>
+<div class="zhanwei" style="height: .78rem;"></div>
+<!--提现到微信-->
+<div class="withdraw">
+	<div class="wd-method">
+		<i class="iconfont wx fl">&#xe63a;</i>
+		<p class="fl">微信</p>
+		<input type="radio" class="input fr" checked/>
+	</div>
+</div>
+<!--提示信息-->
+<div class="wd-tips">
+	<input type="radio" class="input fl" checked/>
+	<p class="fl">所有的余额提现，都会转到微信钱包中，一般在2小时内到账</p>
+</div>
+<!--提现金额-->
+<div class="withdraw">
+	<div class="wd-amount">
+		<p class="amt-txt1">提现金额</p>
+		<div class="amt-price">
+			￥<input type="number" />
+		</div>
+		<p class="amt-txt2">您可以提现金额 ¥ 100.00，<a href="">全部提现</a></p>
+		<a onclick="inputPass()"><p class="amt-btn">提现</p></a>
+	</div>
+</div>
+<!--蒙版-->
+<div id="mask" class="mask hidden">
+	<!--输入密码-->
+	<div id="pay" class="common-box ">
+		<!--关闭页面-->
+		<div class="close-box">
+			<a onclick="closeBox()"><img src="img/u373.png"/></a>
+		</div>
+		<!--输入支付密码-->
+		<div class="box-tit mask-tit">
+			<p>请输入支付密码</p>
+			<p class="box-tit-e">Please enter the payment password</p>
+		</div>
+		<div class="pass-box">
+			<div class="tit">
+				<p class="pb-tit fl">我的余额</p>
+				<p class="pb-amt fr">提现</p>
+			</div>
+			<p>请输入六位数密码</p>
+			<div class="pass">
+				<ul><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+				<input type="password" maxlength="6" oninput="onInput(this)" <!--placeholder="暂不能用"-->/>
+			</div>
+			<a href="" ><p class="fr">忘记密码？</p></a>
+		</div>
+		<div class="pass-tips">
+			<input type="radio" class="input fl" checked />
+			<p class="fl">没有设置支付密码不能转让：<a href="">密码设置</a></p>
+		</div>
+	</div>				
+</div>	
+</body>
+<script type="text/javascript">
+	function onInput(e){
+		console.log($(e).val())
+		if($(e).val().length>=6){
+			$(e).blur();
+//			window.location.href="index.html";
+		}
+	}
+	function inputPass(){
+		$("#mask").removeClass("hidden");
+	}
+	//	关闭弹窗
+	function closeBox(){
+		$("#mask").addClass("hidden");
+		$(".pass>input[type='password']").val("");
+	}
+</script>
+</html>

@@ -1,0 +1,16 @@
+.re-tips{padding: .3rem .2rem;width: 7.1rem;}
+.re-tips>.re-tips-tit{font-size: .28rem;color: #333;}
+.re-tips>.re-tips-cot{font-size: .24rem;color: #999;}
+.re-ul{padding: .3rem .05rem;font-size: .28rem;color: #f00;overflow: hidden;background-color: #fff;}
+.re-ul>ul>li{width: 2.1rem;height: .95rem;margin: .1rem .15rem; border: 0.02rem solid #D92B17;border-radius: .2rem; float: left;text-align: center;line-height: .95rem;}
+.re-ul>ul>li.jine{background: transparent;}
+.re-ul>ul>li.jine>input{margin-left: .2rem;width: 1.6rem;}
+.on{background: #D92B17;color: #fff;}
+
+.re-method{background: #fff;padding: .25rem .2rem;width: 7.1rem;font-size: .28rem;overflow: hidden;border-bottom: 0.02rem solid #eee;}
+.re-method>.wx{font-size: .6rem;color: #06bb14;margin: 0 0.2rem;}
+.re-method>p{line-height: .6rem;}
+.re-method>.input{margin-top: .2rem;}
+
+.re-confirm{position: fixed;bottom: 0;width: 7.5rem;height: .85rem;background-color: #D92B17;}
+.re-confirm>a{width: 7.5rem;height: .85rem;font-size: .28rem;color: #fff;text-align: center;line-height: .85rem;}

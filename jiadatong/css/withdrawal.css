@@ -1,0 +1,44 @@
+/*提现到微信*/
+.withdraw{background: #fff;padding: .25rem .2rem;width: 7.1rem;font-size: .28rem;border-bottom: 0.02rem solid #eee;}
+.withdraw>.wd-method{overflow: hidden;}
+.withdraw>.wd-method>.wx{font-size: .6rem;color: #06bb14;margin: 0 0.2rem;}
+.withdraw>.wd-method>p{line-height: .6rem;}
+.withdraw>.wd-method>p>.jifen{color: #D92B17;font-size: .72rem;}
+.withdraw>.wd-method>.input{margin-top: .2rem;}
+/*提示信息*/
+.wd-tips{padding: .25rem .2rem;width: 7.1rem;overflow: hidden;}
+.wd-tips>.input{margin-right: .2rem;margin-top: 0;}
+.wd-tips>p{font-size: .24rem;color: #999;width: 6.5rem;}
+/*提现金额*/
+.withdraw>.wd-amount>.amt-txt1{color: #333;font-size: .28rem;}
+.withdraw>.wd-amount>.amt-price{color: #333;font-size: .72rem;border-bottom: 0.02rem solid #ccc;}
+.withdraw>.wd-amount>.amt-price>input{width: 6.3rem;color: #D92B17;}
+.withdraw>.wd-amount>.amt-txt2{color: #999;font-size: .24rem;margin: .2rem 0;}
+.withdraw>.wd-amount>.amt-txt2>a{color: #D92B17;}
+.withdraw>.wd-amount>a>.amt-btn{width: 7.1rem;height: .86rem;margin: .6rem 0 .3rem; background-color: #da2b18;border-radius: .2rem;text-align: center;line-height: .86rem;font-size: .28rem;color: #fff;}
+
+/*提现弹出框*/ /*======================================================================*/
+.pass-box{padding:.25rem .4rem .2rem;font-size: .28rem;}
+.pass-box>.tit{height: .5rem;overflow: hidden;margin-bottom: .6rem;}
+.pass-box>.tit>.pb-tit{padding-left: .65rem;background: url(../img/u5919.png) no-repeat center left;background-size: .5rem;font-size: .28rem;height: .5rem;line-height: .5rem;}
+.pass-box>.tit>.pb-amt{font-size: .28rem;color: #D92B17;line-height: .5rem;}
+.pass-box>p{width: 100%;text-align: center;color: #999;font-size: .28rem;margin-bottom: .25rem;}
+.pass-box>a>p{color: #999;}
+/*密码框*/
+.pass-box>.pass{width: 6.32rem;height: .9rem;/*background-color: #eee;*/margin-bottom: .4rem;margin-left: .2rem; overflow: hidden;position: relative;}
+.pass-box>.pass>ul{overflow: hidden;width: 5.8271rem;height: .9rem;border-left:0.02rem solid #000 ;border-top:0.02rem solid #000 ;}
+.pass-box>.pass>ul>li{width:.948rem;height: .853rem;float: left; border-right:0.02rem solid #000 ;border-bottom:0.02rem solid #000 ;}
+.pass-box>.pass>input{width: 6.3rem;height: .9rem;font-size:.6rem;padding-left: .45rem; letter-spacing: .75rem;background-color: transparent;text-align: left;position: absolute;top: 0;left: 0;}
+
+.pass-tips{padding:.25rem .4rem .2rem;font-size: .28rem;position: absolute;bottom: 0;}
+.pass-tips>.input{margin-right: .2rem;margin-top: 0;}
+.pass-tips>p{font-size: .24rem;color: #333;width: 5.75rem;}
+.pass-tips>p>a{color: #D92B17;}
+
+
+
+
+
+
+
+

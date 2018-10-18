@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/transport.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common.js"></script>
+    <script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<!--头部搜索框-->
+<header class="header">
+	<a class="header-logo fl" href="#"><img src="img/logo.png"/></a>
+	<div class="header-search fl">
+		<img src="img/search.png"/>
+		<input class="h-search-input" type="text" id="" value="" placeholder="嘉大超市 周六全场8.5折" />
+	</div>
+	<a class="header-msg fr" href="message.html"><i class="iconfont">&#xe618;</i></a>
+</header>
+<!--首页轮播图-->
+<!--需要修改-->
+<div class="banner">
+	<ul class="banner-img">
+		<li><img src="img/banner1.png"/></li>
+		<!--<li><img src="img/banner2.png"/></li>
+		<li><img src="img/banner3.png"/></li>-->
+	</ul>
+	<ul class="banner-con">
+		<li class="on">1</li>
+		<li class="">2</li>
+		<li class="">3</li>
+	</ul>
+</div>
+<!--导航栏-->
+<nav class="nav">
+	<ul>
+        <li>
+            <a href="#">
+                <span class="bg-blue"><i class="iconfont icons">&#xe60d;</i></span>
+                <p>嘉大饭堂</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="bg-pink"><i class="iconfont icons">&#xe630;</i></span>
+                <p>嘉大超市</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="bg-green"><i class="iconfont icons">&#xe62b;</i></span>
+                <p>便利店</p>
+            </a>
+        </li>
+        <li>
+            <a href="fhtt/index.html">
+                <span class="bg-black"><i class="iconfont icons">&#xe628;</i></span>
+                <p>凤凰图腾</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="bg-hgreen"><i class="iconfont icons">&#xe62e;</i></span>
+                <p>专车</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="bg-purple"><i class="iconfont icons">&#xe614;</i></span>
+                <p>酒店</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="bg-blue"><i class="iconfont icons">&#xe61e;</i></span>
+                <p>停车场</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="bg-pink"><i class="iconfont icons">&#xe619;</i></span>
+                <p>更多</p>
+            </a>
+        </li>
+    </ul>
+
+</nav>
+<!--促销区-->
+<div class="center_box hidden">
+    <div class="one">
+       <div class="one-top">
+       	<p class="one-top-l fl">
+       		<span class="one-top-tit">限时抢购</span>
+       		<span class="one-top-el">Time limit</span>
+       		<span class="one-top-end">距离结束</span>
+       	</p>
+       	<p class="time fl">
+            <span class="hour">06</span>&nbsp;:
+            <span class="minute">59</span>&nbsp;:
+            <span class="second">03</span>
+       	</p>
+       </div>
+       <div class="one-bottom">
+       		<img src="img/u136.png"/>
+       		<p>我家的好面 5折4元一份</p>
+       </div>
+    </div>
+    <div class="two ">
+        <span class="left">
+            <span class="title">代金券</span>
+            <span class="desc">电子代金劵超市购物 使用 满30元 可使用</span>
+        </span>
+        <span class="right">
+            <i class="iconfont big-icons">&#xe63e;</i>
+        </span>
+    </div>
+    <div class="three ">
+        <span class="left">
+            <span class="title">每日鲜生</span>
+            <span class="desc">鲜生每天18点起打折 22点能打5折</span>
+        </span>
+        <span class="right">
+            <i class="iconfont big-icons" style="color: #2e952e;">&#xe611;</i>
+        </span>
+    </div>
+    <div class="four ">
+        <span class="left">
+            <span class="title">天天促销</span>
+            <span class="desc">嘉大超市购物优惠券</span>
+        </span>
+        <span class="right">
+            <i class="iconfont big-icons" style="color: #ff0045;">&#xe620;</i>
+        </span>
+    </div>
+    <div class="five ">
+        <span class="left">
+            <span class="title">充值消费</span>
+            <span class="desc">返现积分，充值多 送商品</span>
+        </span>
+        <span class="right">
+            <i class="iconfont big-icons" style="color: #a0375c;">&#xe61f;</i>
+        </span>
+    </div>
+</div>
+<!--推荐商品-->
+<div class="recommend">
+    <p class="box_name">为您推荐</p>
+    <ul class="shop">
+       <li class="item fl">
+           <p class="title">快乐就餐</p>
+           <p class="desc">健康饮食 品质生活</p>
+           <div class="item-con">
+           	<ul class="item-con-two">
+           		<li>
+           			<img src="img/u167.png"/>
+           			<p class="l-title">送积分1000</p>
+           			<p class="l-desc">排骨饭</p>
+           		</li>
+           		<li>
+           			<img src="img/u165.png"/>
+           			<p class="l-title">满100减20</p>
+           			<p class="l-desc">牛奶</p>
+           		</li>
+           	</ul>
+           </div>
+        </li>
+       <li class="item fl">
+           <p class="title">嘉大专区</p>
+           <p class="desc">创造生活无限美</p>
+           <div class="item-con">
+           	<ul class="item-con-two">
+           		<li>
+           			<img src="img/u186.png"/>
+           			<p class="l-title">饭堂熟食</p>
+           			<p class="l-desc">9折</p>
+           		</li>
+           		<li>
+           			<img src="img/u184.png"/>
+           			<p class="l-title">蚕丝被</p>
+           			<p class="l-desc">￥50.00</p>
+           		</li>
+           	</ul>
+           </div>
+        </li>
+       <li class="item fl">
+           <p class="title">24小时精选</p>
+           <p class="desc">店长推荐，好货</p>
+           <div class="item-con">
+           	<div class="item-con-one">
+           		<img src="img/u213.png"/>
+           		<p class="l-title">嘉大超市服饰专区</p>
+           		<p class="l-desc">8.5折</p>
+           	</div>
+           </div>
+        </li>
+       <li class="item fl">
+           <p class="title">生活健康</p>
+           <p class="desc">喜伴一生，爱你如家</p>
+           <div class="item-con">
+           	<ul class="item-con-two">
+           		<li>
+           			<img src="img/u215.png"/>
+           			<p class="l-title">送积分1000</p>
+           			<p class="l-desc">洗衣粉</p>
+           		</li>
+           		<li>
+           			<img src="img/u217.png"/>
+           			<p class="l-title">洗面奶</p>
+           			<p class="l-desc">￥18.00</p>
+           		</li>
+           	</ul>
+           </div>
+        </li>
+    </ul>
+</div>
+<!--精选商品-->
+<div class="content-box">
+	<p class="box_name">每周精选</p>
+	<ul class="shop">
+		<li class="i-box fl" id="li_226">
+			<a href="product.html"><img src="img/u226.png" class="pic_img_226"/></a>
+			<p class="txt1">超市 | 美国开心果</p>
+			<p class="txt2">月销300斤</p>
+			<p class="txt3">￥38.00</p>
+			<a class="ct-btn" onclick="javascript:addToCart3(297)"><i class="iconfont">&#xe62d;</i></a>
+		</li>
+		<li class="i-box  fl"  id="li_286">
+			<a href="product.html"><img src="img/u286.png" class="pic_img_286"/></a>
+			<p class="txt1">凤凰图腾 | 仙草茶</p>
+			<p class="txt2">月销1000杯</p>
+			<p class="txt3">￥16.00</p>
+			<a class="ct-btn" onclick="MoveBox(286)"><i class="iconfont">&#xe62d;</i></a>
+		</li>
+		<li class="i-box fl">
+			<a href="product.html"><img src="img/u288.png"/></a>
+			<p class="txt1">凤凰图腾 | 鼓油凤爪饭套餐 送金单丛一杯</p>
+			<p class="txt2">月销100件</p>
+			<p class="txt3">￥19.90</p>
+			<a class="ct-btn" href="#"><i class="iconfont">&#xe62d;</i></a>
+		</li>
+		<li class="i-box fl">
+			<a href="product.html"><img src="img/u290.png"/></a>
+			<p class="txt1">超市 | 品合薯片，原味300M</p>
+			<p class="txt2">月销3000件</p>
+			<p class="txt3">￥60.00</p>
+			<a class="ct-btn" href="#"><i class="iconfont">&#xe62d;</i></a>
+		</li>
+		<li class="i-box fl">
+			<a href="product.html"><img src="img/u292.png"/></a>
+			<p class="txt1">凤凰图腾 | 排骨饭套餐，配及第汤</p>
+			<p class="txt2">月销999份</p>
+			<p class="txt3">￥22.00</p>
+			<a class="ct-btn" href="#"><i class="iconfont">&#xe62d;</i></a>
+		</li>
+		<li class="i-box fl">
+			<a href="product.html"><img src="img/u294.png"/></a>
+			<p class="txt1">超市 | 法国小麦面包</p>
+			<p class="txt2">月销300包</p>
+			<p class="txt3">￥38.00</p>
+			<a class="ct-btn" href="#"><i class="iconfont">&#xe62d;</i></a>
+		</li>
+	</ul>
+</div>
+<!--底部导航-->
+<footer>
+    <a href="index.html" class="special">
+    	<i class="iconfont hidden">&#xe631;</i>
+    	<i class="iconfont active">&#xe635;</i>
+        <p class="text">首页</p>
+    </a>
+    <a href="#" class="special">
+    	<i class="iconfont">&#xe633;</i>
+    	<i class="iconfont hidden active">&#xe632;</i>
+        <p>发现</p>
+    </a>
+    <a href="#" class="special">
+        <span class="pic3">
+            <i class="iconfont active">&#xe636;</i>
+        </span>
+        <p>扫一扫</p>
+    </a>
+    <a href="shopping.html" class="special chart">
+    	<span>99+</span>
+    	<i class="iconfont">&#xe634;</i>
+    	<i class="iconfont active hidden">&#xe639;</i>
+        <p>购物</p>
+    </a>
+    <a href="#" class="special">
+    	<i class="iconfont">&#xe638;</i>
+    	<i class="iconfont active hidden">&#xe637;</i>
+        <p>我的</p>
+    </a>
+</footer>
+
+<!--蒙版-->
+<div id="mask" class="mask hidden">
+	<!--选择规格-->
+	<div id="pay" class="common-box ">
+		<!--关闭页面-->
+		<div class="close-box">
+			<a><img src="img/u373.png"/></a>
+		</div>
+		<!--商品名称-->
+		<div class="box-tit mask-tit">
+			<p>汤王 | 红烧肥肠米苔目 / 面</p>
+			<p class="box-tit-e">标配：默认4两/米苔目，青菜为上海青</p>
+		</div>
+		<div class="mask-cont">
+			<div class="mask-ul">
+				<p>口味</p>
+				<ul>
+					<li class="on">微辣</li>
+					<li>中辣</li>
+					<li>劲辣</li>
+					<li>原味</li>
+				</ul>
+			</div>
+			<div class="mask-ul">
+				<p>主食</p>
+				<ul>
+					<li class="on">米苔目</li>
+					<li>面</li>
+					<li>腌面加￥2.00</li>
+				</ul>
+			</div>
+			<div class="mask-ul">
+				<p>配菜</p>
+				<ul>
+					<li class="on">上海青</li>
+					<li>生菜</li>
+				</ul>
+			</div>
+			
+			<p class="red-txt">加配菜</p>
+			<div class="mask-div">
+				<span class="price fl">
+					加分量/ 2两 | ￥<span class="lred-txt">2.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+			<div class="mask-div">
+				<span class="price fl">
+					卤蛋 | ￥<span class="lred-txt">2.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+			<div class="mask-div">
+				<span class="price fl">
+					煎鸡蛋 | ￥<span class="lred-txt">3.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+			<div class="mask-div">
+				<span class="price fl">
+					时蔬一份 | ￥<span class="lred-txt">9.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+			<div class="mask-div">
+				<span class="price fl">
+					鸡蛋薄饼一张 | ￥<span class="lred-txt">12.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+			<div class="mask-div">
+				<span class="price fl">
+					笋扳一份（4个） | ￥<span class="lred-txt">12.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+			<div class="mask-div">
+				<span class="price fl">
+					加分量/ 2两 | ￥<span class="lred-txt">2.00</span>
+				</span>
+				<span class="computer fr">
+					<span class="minus">-</span>
+            		<span class="num">0</span>
+            		<span class="plus">+</span>
+				</span>
+			</div>
+		</div>
+	</div>		
+	<div class="payment">
+		<div class="payment-title">
+			<span class="price fl">
+				<span class="yuan">￥</span>
+				<span class="p-num">32.</span>
+				<span class="p-linum">00</span>
+			</span>
+			<a class="fr btn-r">立即购买</a>
+			<a class="fr btn-l">加入购物车</a>
+		</div>
+	</div>			
+</div>	
+
+
+</body>
+<script>
+	var data={
+		method:"getpdtype",
+		args:"69533BB1-FD26-439C-BD5D-828D79D3E613",
+		tokening:"",
+		
+		appvs:0,
+	}
+	$.ajax({
+		url:"http://erpapi.mcc1998.com/appsub.php",
+		type:"POST",
+		data:data,
+		async:false,
+		success:function(a){
+//			console.log(JSON.parse(a));
+			eval('(' + a + ')')
+			console.log(a);
+			
+		},
+		error:function(b){
+			console.log(b.detail)
+		}
+	})
+</script>
+</html>

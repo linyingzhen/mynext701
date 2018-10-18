@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>退换货</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/mine.css">
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<header>
+	<div class="s-header">
+		<a href="index.html"><i class="iconfont goleft">&#xe617;</i></a>
+		<p>选择服务类型</p>
+	</div>
+</header>
+<div class="zhanwei" style="height: .8rem;"></div>
+<div class="exchange-box">
+	<img src="img/u292.png" alt="" title=""/>
+	<p>A 级套餐 红烧排骨+ 猪杂汤送仙草杯，加煎蛋，上一份蔬。</p>
+</div>
+<div class="hidden">
+	<div class="exchange-box2">
+		<a href="#">
+			<i class="iconfont exchange-icon fl">&#xe626;</i>
+			<div class="msg-left fl">
+				<p>退款</p>
+				<p class="gray-txt"> 所有退款到会退到嘉大Pay余额里面，请留意</p>
+			</div>
+			<i class="iconfont goright msg-right fr">&#xe629;</i>
+		</a>
+	</div>
+	
+	<div class="exchange-box2">
+		<a href="#">
+			<i class="iconfont exchange-icon fl">&#xe610;</i>
+			<div class="msg-left fl">
+				<p>换商品</p>
+				<p class="gray-txt"> 只支持相同价格的商品交换</p>
+			</div>
+			<i class="iconfont goright msg-right fr">&#xe629;</i>
+		</a>
+	</div>
+</div>
+
+
+<div class="">
+	<div class="exchange-box">
+		<div class="">
+			<span class="fl">退款原因</span>
+			<span class="fr gray-txt">请选择<i class="iconfont gray-txt">&#xe629;</i></span>
+		</div>
+		<div class="bgray-txt">无理由</div>
+	</div>
+	<div class="exchange-box">
+		<span>退款金额： </span>
+		<span class="red-txt">￥32.00</span>
+	</div>
+	<div class="exchange-box">
+		退款说明：<input type="text" value="选填"/>
+	</div>
+	<div class="exchange-tips">
+		<div>
+			<input type="checkbox" checked="checked" /><p>退款说明，使用了代金劵的商品，以实付的金额退回，本代金劵已使用的状态。</p>
+		</div>
+		<div>
+			<input type="checkbox" checked="checked" /><p>商家在优惠活动中拥有一切解释权</p>
+		</div>
+		
+	</div>
+	<div class="zhanwei" style="height: 1rem;"></div>
+	<div class="exchange-button">
+		<a><p>提交</p></a>
+	</div>
+</div>
+
+<div class="hidden">
+	<div class="exchange-box">
+		<div class="">
+			<span class="fl">换商品原因</span>
+			<span class="fr gray-txt">请选择<i class="iconfont gray-txt">&#xe629;</i></span>
+		</div>
+		<div class="bgray-txt">无理由</div>
+	</div>
+	<div class="exchange-box">
+		<div class="">
+			<span class="fl">换货商品</span>
+			<span class="fr gray-txt">1件   请选择<i class="iconfont gray-txt">&#xe629;</i></span>
+		</div>
+	</div>
+	<div class="exchange-box">
+		换商品说明：<input type="text" value="选填"/>
+	</div>
+	<div class="exchange-tips">
+		<div>
+			<input type="checkbox" checked="checked" disabled="disabled"/><p>仅限更换相同价格的商品，促销，特价，等商品不支持更换</p>
+		</div>
+	</div>
+</div>
+<!--更换商品-->
+<div id="mask" class="mask hidden">
+	<!--选择规格-->
+	<div id="pay" class="common-box mask-exchange">
+		<!--关闭页面-->
+		<div class="close-box">
+			<a><img src="img/u373.png"/></a>
+		</div>
+		<!--商品名称-->
+		<div class="box-tit mask-tit">
+			<p>请选择你要更换的商品</p>
+			<p class="box-tit-e">Please select the item you want to replace.</p>
+		</div>
+		<div class="mask-cont">
+			<div class="mask-ul">
+				<p>主食</p>
+				<ul>
+					<li class="on">红烧排骨饭</li>
+					<li>猪脚饭</li>
+					<li>鸡油茄子饭</li>
+				</ul>
+			</div>
+			<div class="mask-ul">
+				<p>汤配</p>
+				<ul>
+					<li class="on">猪杂汤</li>
+					<li>三鲜及第汤</li>
+					<li>紫菜汤</li>
+				</ul>
+			</div>
+			<div class="mask-ul">
+				<p>配菜</p>
+				<ul>
+					<li class="on">上海青</li>
+					<li>生菜</li>
+					<li>菜心</li>
+				</ul>
+			</div>
+			<div class="mask-ul">
+				<p>其它</p>
+				<ul>
+					<li class="on">卤蛋</li>
+					<li>煎鸡蛋</li>
+					<li>咸蛋</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mask-foot">
+			<button>提交</button>
+		</div>
+	</div>		
+				
+</div>	
+
+
+</body>
+</html>

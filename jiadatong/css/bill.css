@@ -1,0 +1,29 @@
+/*账单页面*/ /*============================================*/
+/*每月支出收入小结*/
+.month{background-color: #fff;margin-bottom: .2rem;font-size: .28rem;}
+.month .box{width: 7.1rem;border-bottom: 0.02rem solid #efefef;padding: .25rem .2rem;overflow: hidden;}
+.month .box>.title{height: .42rem;line-height: .42rem; border-left: 0.08rem solid #d13016;overflow: hidden;}
+.month .box>.title>.bill-txt1{color: #000;padding: 0 .15rem;}
+.month .box>.title>.bill-txt2{color: #999;}
+/*收入支出明细*/
+.month .box>.cont{height: .8rem;}
+.month .box>.cont>p{line-height: .4rem;}
+.month .box>.cont>.cont-t1{color: #333;font-size: .28rem;}
+.month .box>.cont>.cont-t2{color: #999;font-size: .24rem;}
+.month .box>.cont-t3{color: #000;font-size: .32rem;line-height: .8rem;}
+
+/*账单详情页面*//*============================================*/
+/*头部账单金额*/
+.head{width: 7.5rem;height: 3rem;padding-top: .4rem; text-align: center;font-size: .28rem;color: #999;}
+.head>.head-tit{height: .6rem;line-height: .6rem; background: url(../img/logo.png) no-repeat center left;background-size: .56rem;display: inline-block;padding-left: .8rem;font-size: .32rem;color: #333;}
+.head>.head-amt{color: #000;font-size: .56rem;margin: .25rem auto .4rem;}
+/*交易详细信息*/
+.bill-dt{width: 7.5rem;background-color: #fff;margin-bottom: .2rem;}
+.bill-dt>.twig,
+.bill-dt>a>.twig1{padding: .3rem .2rem;border-bottom: .02rem solid #eee;font-size: .28rem;overflow: hidden;}
+.bill-dt>.twig>p,
+.bill-dt>a>.twig1>p{float: left;display: inline-block;color: #000;}
+.bill-dt>.twig>p:first-child{width: 2rem;text-align: left; color: #999;}
+.bill-dt>.twig>p:last-child{width: 5.1rem;text-align: right;color: #000;}
+
+.bill-dt>a>.twig1>i.iconfont{float: right;}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>确认订单</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<!--<link rel="stylesheet" type="text/css" href="css/animate.css">-->
+<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+<header>
+	<div class="s-header">
+		<a href="shopping.html"><i class="iconfont goleft">&#xe617;</i></a>
+		<p>确认订单</p>
+	</div>
+</header>
+<div class="zhanwei" style="height: .78rem;"></div>
+<!--凤凰图腾-->
+<div class="ttbox cof-box">
+	<div class="ttbox-tit">
+		<img class="ttbox-tit-img fl" src="img/u432.png"/>
+		<span class="ttbox-tit-txt fl">凤凰图腾-白云嘉大广场店</span>
+	</div>
+	<ul class="ttbox-con">
+		<li class="items">
+			<img class="ttbox-con-img fl" src="img/u292.png"/>
+			<div class="ttbox-con-right fl">
+				<p class="ttbox-con-txt">A 级套餐 红烧排骨+ 猪杂汤送仙草杯，加煎蛋，上一份蔬。</p>
+				<div class="food">
+					<span class="price fl">
+						<span class="yuan hidden">￥</span>
+						<span class="p-num">￥32.00</span>
+						<span class="p-linum hidden">00</span>
+					</span>
+					<span class="ttbox-con-txt2 fr" >
+						数量：<span>1</span>
+					</span>
+				</div>
+			</div>
+		</li>
+		<li class="items">
+			<img class="ttbox-con-img fl" src="img/u872.png"/>
+			<div class="ttbox-con-right fl">
+				<p class="ttbox-con-txt">汤王 | 手撕鸡柳米苔目/鸡蛋/梅菜扣肉/时蔬</p>
+				<div class="food">
+					<span class="price fl">
+						<span class="p-yuanjia">￥38.00</span>
+						<span class="yuan hidden">￥</span>
+						<span class="p-num">￥31.00</span>
+						<span class="p-linum hidden">00</span>
+					</span>
+					<span class="ttbox-con-txt2 fr">
+						数量：<span>1</span>
+					</span>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<div class="ttbox-foot">
+		<p class="shop-youhui fl">本店优惠</p>
+		<p class="youhuineirong fr">满60元减<span class="red-txt">￥5</span></p>
+	</div>
+	<div class="cofbox-youhui">
+		<p class="yuanfu fl">
+			原付金额&nbsp;
+			<span class="y-price">￥81338.00元</span>
+		</p>
+		<p class="shifu fr">
+			实付：
+			<span class="yuan hidden">￥</span>
+			<span class="p-num">￥81338.00元</span>
+			<span class="p-linum hidden">00</span>
+		</p>
+	</div>
+</div>
+		
+<!--嘉大饭堂-->
+<div class="ttbox cof-box">
+	<div class="ttbox-tit">
+		<img class="ttbox-tit-img fl" src="img/u432.png"/>
+		<span class="ttbox-tit-txt fl">嘉大饭堂</span>
+	</div>
+	<ul class="ttbox-con">
+		<li class="items">
+			<img class="ttbox-con-img fl" src="img/u292.png"/>
+			<div class="ttbox-con-right fl">
+				<p class="ttbox-con-txt">两菜一汤，天天新口味</p>
+				<p class="ttbox-con-txt2">1荤1素送靓汤</p>
+				<div class="food">
+					<span class="price fl">
+						<span class="yuan hidden">￥</span>
+						<span class="p-num">￥8.00</span>
+						<span class="p-linum hidden">00</span>
+					</span>
+					<span class="ttbox-con-txt2 fr" >
+						<span>数量：</span><span>1</span>
+					</span>
+				</div>
+			</div>
+		</li>
+		
+	</ul>
+	<div class="ttbox-foot">
+		<p class="shop-youhui fl">本店优惠</p>
+		<p class="youhuineirong fr">满60元减<span class="red-txt">￥5</span></p>
+	</div>
+	<div class="cofbox-youhui">
+		<p class="yuanfu fl">
+			原付金额&nbsp;
+			<span class="y-price">63元</span>
+		</p>
+		<p class="shifu fr">
+			实付：
+			<span class="yuan hidden">￥</span>
+			<span class="p-num">￥8.00</span>
+			<span class="p-linum hidden">00</span>
+		</p>
+	</div>
+</div>
+
+<!--选择支付方式页面-->
+<div id="pay" class="common-box hidden">
+	<!--关闭页面-->
+	<div class="close-box">
+		<a><img src="img/u1104.png"/></a>
+		<a onclick="closeBox()"><img src="img/u373.png"/></a>
+	</div>
+	<!--选择支付方式-->
+	<div class="box-tit">
+		<p>选择支付方式</p>
+		<p class="box-tit-e">Select Payment Method</p>
+	</div>
+	<!--提示信息-->
+	<div class="box-tips">
+		<p class="box-tips-tit">支付选择</p>
+		<p>按照以下排序，自动选择可用付款方式，收取手续费的付款方式不会被选中</p>
+	</div>
+	<!--嘉大pay-->
+	<div class="paym-jiadapay">
+		<input class="fl" type="radio" name="pay" />
+		<img class="fl" src="img/logo.png"/>
+		<div class="paym-jiadapay-box fr">
+			<div class="paym-jiadapay-recharge">
+				<span class="fl">
+					<span>嘉大pay</span><br>
+					<span class="gray-txt">余额：<span class="red-txt">4888.00</span></span>
+				</span>
+				<a href="#" class="fr" onclick="jiadapay()"><span><span class="red-txt">充值</span><i class="iconfont goright">&#xe629;</i></span></a>
+			</div>
+			<div class="paym-jiadapay-quan paym-jiadapay-usequan">
+				<i class="iconfont quan">&#xe63c;</i>
+				<span class="red-txt">￥5.00</span>
+				<a href="#" class="fr"><span>
+					<span class="bgray-txt">使用</span><i class="iconfont goright">&#xe629;</i>
+				</span></a>
+				</div>
+				<div class="paym-jiadapay-quan paym-jiadapay-unquan">
+					<i class="iconfont quan">&#xe63c;</i>
+					<span class="red-txt">不可用，请选择嘉大支付</span>
+				</div>
+		</div>
+	</div>
+	<!--微信-->
+	<div class="paym">
+		<input class="fl" type="radio" name="pay" />
+		<p class="fl wxpay">微信</p>
+	</div>
+	<!--支付宝-->
+	<div class="paym">
+		<input class="fl" type="radio" name="pay" />
+		<p class="fl alipay">支付宝</p>
+	</div>
+	<!--确认订单按钮-->
+	<div class="recharge-btn">
+		<a>确认订单</a>
+	</div>
+</div>
+<!--嘉大通充值页面-->	
+<div id="recharge" class="common-box hidden">
+	<!--关闭页面-->
+	<div class="close-box">
+		<a><img src="img/u1104.png"/></a>
+	</div>
+	<!--选择支付方式-->
+	<div class="box-tit2">
+		<a class="recharge-back" onclick="rechargeBack()">
+			返回
+		</a>
+		<p>请选择充值金额</p>
+		<p class="box-tit-e">Please choose to top up</p>
+	</div>
+	<!--提示信息-->
+	<div class="box-tips">
+		<p class="box-tips-tit">充值活动</p>
+		<p>凡在2018年 7月一次充值，满<span style="color:#D92B17;">1000</span>元，送300鸡蛋。累计充值<span style="color:#FF0000;">1000</span>元，送50鸡蛋。</p>
+	</div>
+	<!--嘉大pay-->
+	<div class="paym-jiadapay" style="border: 0;">
+		<div class="recharge_content">
+		<ul>
+			<li class="b_red">50</li>
+			<li>100</li>
+			<li>200</li>
+			<li>300</li>
+			<li>500</li>
+			<li>800</li>
+			<li>1000</li>
+			<li>2000</li>
+		</ul>
+	</div>
+	</div>
+	<!--微信-->
+	<div class="paym">
+		<input class="fr" type="radio" name="weixin" />
+		<p class="fl wxpay">微信</p>
+	</div>
+	<!--支付宝-->
+	<div class="paym">
+		<input class="fr" type="radio" name="alipay" />
+		<p class="fl alipay">支付宝</p>
+	</div>
+	<div class="recharge-btn">
+		<a onclick="rechargeBack()">确认支付</a>
+	</div>
+</div>
+<!--蒙版-->
+<div id="mask" class="mask hidden"></div>	
+<!--占位footer-->
+<div class="zhanwei" style="height: 1rem;"></div>
+<!--提交支付-->
+<div class="payment" >
+	<div class="payment-title">
+		<span class="fl">合计:</span>
+		<span class="fl ">
+			￥<span class="big-red">58</span>.00
+		</span>
+		<span class="fl gray-txt">
+			优惠<span>5元</span>
+		</span>
+		<a onclick="cpay()" class="fr button">提交支付</a>
+	</div>
+</div>
+</body>
+<script>
+	function cpay(){
+		$("#pay,#mask").removeClass("hidden");
+		$("#recharge").addClass("hidden");
+	}
+	//	嘉大通充值
+	function jiadapay(){
+		$("#recharge").removeClass("hidden");
+		$("#pay").addClass("hidden");
+		return false;
+	}
+	//	关闭弹窗
+	function closeBox(){
+		$("#pay,#mask").addClass("hidden");
+	}
+	//	充值页面返回
+	function rechargeBack(){
+		$("#pay").removeClass("hidden");
+		$("#recharge").addClass("hidden");
+	}
+</script>
+</html>

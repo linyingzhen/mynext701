@@ -1,0 +1,101 @@
+.body{ background: url(../images/u4002.png) no-repeat center top;background-size: 7.5rem 3.8rem;}
+/*头部,用户信息*/
+.mine-header{width: 7.1rem;padding: 0.1rem 0.2rem;height: 1.4rem; overflow: hidden;}
+.mine-header .mine-username{width: 4rem;height: 0.8rem; padding: 0.3rem 0 0.3rem 1.5rem;background: url(../images/u4047.png) no-repeat left top;background-size: 1.4rem;}
+.mine-header .mine-username p{font-family: 'PingFangSC-Regular', 'PingFang SC';font-size: .24rem;color: #FFFFFF;line-height: .4rem;}
+.mine-header .mine-username .userName{font-size: .32rem;}
+.mine-header .mine-usermsg{width: .64rem;height: 1rem; padding: 0.2rem 0 ;overflow: hidden;}
+.mine-header .mine-usermsg a{width: .64rem;height: 1rem;/*padding: 0 0.05rem;*/  position: relative;font-size: .24rem;color: #fff;text-align: center;}
+.mine-header .mine-usermsg a i.iconfont{font-size: .6rem !important;color: #fff;}
+.mine-header .mine-usermsg a .num{width: .6rem;height: .3rem;  position: absolute;color: #D92B17;top: 0.1rem;left: 0; line-height: .3rem;text-align: center;}
+/*余额/积分/评价*/
+.mine-nav{width: 7.1rem;overflow: hidden;margin: .25rem 0;padding: 0 0.2rem;}
+.mine-nav ul li{display: inline-block; float: left;width: 1.775rem;}
+.mine-nav ul li a{width: 1.775rem;height: .75rem; font-size: .28rem;color: #fff;text-align: center;}
+.mine-nav ul li a p{line-height: .4rem;}
+.mine-nav ul li a .num{font-size: .32rem;}
+/*我的订单*/
+.mine-order{width: 7.1rem;overflow: hidden;margin: .1rem .2rem;background: #fff;border-radius: .32rem;}
+.mine-order .mine-order-tit{width: 6.5rem; padding: .25rem .3rem;overflow: hidden;}
+.mine-order .mine-order-tit span{font-size: .32rem;color: #ED3943;}
+.mine-order .mine-order-tit a{line-height: .42rem;}
+/*交易列表*/
+.mine-order .mine-order-nav{width: 7.1rem;overflow: hidden;margin: -0.36rem 0 .25rem;/*padding: 0 0.2rem;*/}
+.mine-order .mine-order-nav ul{overflow: hidden;}
+.mine-order .mine-order-nav ul li{display: inline-block; float: left;width: 1.775rem;}
+.mine-order .mine-order-nav ul li a{width: 1.775rem;height: .75rem; font-size: .24rem;color: #333;text-align: center;}
+.mine-order .mine-order-nav ul li a i.iconfont{font-size: .8rem;position: relative;left: .48rem;color: #d92b17;}
+.mine-order .mine-order-nav ul li a p{line-height: .32rem;}
+/*正在配送*/
+.mine-order .mine-order-info{width: 6rem;margin: 0 0.3rem; padding: .3rem .25rem;background-color: #f9f9f9; overflow: hidden;border-radius: .32rem;}
+.mine-order .mine-order-info .mine-order-infotit{font-size: .24rem;color: #333;overflow: hidden;margin-bottom: .1rem;}
+.mine-order .mine-order-info .mine-order-infotit a span{font-size: .2rem;}
+.mine-order .mine-order-info .mine-order-infocon{font-size: .2rem;color: #999;overflow: hidden;margin: .1rem 0;}
+.mine-order .mine-order-info .mine-order-infocon img{width: .68rem;}
+.mine-order .mine-order-info .mine-order-infocon p{margin-left: .15rem;line-height: .34rem; }
+.mine-order .mine-order-info .mine-order-infocon .mine-order-infocon-txt p{width: 3.6rem;text-overflow:ellipsis; overflow:hidden;white-space:nowrap;}
+.mine-order .mine-order-info .mine-order-infocon .floatright{text-align: right;}
+
+/*退出按钮*/
+.mine-logout{width: 7.1rem; height: 1rem;background: #fff;margin: .1rem .2rem;border-radius: .32rem;overflow: hidden;}
+.mine-logout button{width: 7.1rem;height: 1rem; line-height: 1rem;text-align: center;color: #D92B17;font-size: .28rem;float: left;}
+
+/*myorder.html*/
+/*头部导航栏*/
+header>.s-header>.h-search{width: .5rem;display: inline-block;position: absolute;right:0.2rem; left: auto;top: 0;color: #fff;height: .78rem;font-size: .7rem;line-height: .78rem;}
+header>.s-header>.h-search>i.iconfont{font-size: .45rem;position: absolute;}
+
+.order-nav{width: 7.04rem;height: .62rem;padding: .1rem .23rem; background-color: #fff;position: fixed;top: .78rem;z-index: 40;}
+.order-nav ul{width: 100%;height:.62rem;overflow: hidden;}
+.order-nav ul li{width: .85rem; height:.62rem;display: inline-block;float: left;}
+.order-nav ul .active a p{border-color: #d92b17;color: #d92b17;}
+.order-nav ul .nav1,.order-nav ul .nav2,.order-nav ul .nav3{margin-right: 1.21rem;}
+.order-nav ul li a p{width: .85rem; height:.59rem;display: inline-block;font-size: .26rem;float: left;text-align: center;line-height: .59rem;border-bottom: 0.03rem solid #fff;}
+/*更改商品样式*/
+.ttbox .ttbox-con .items .myorder-right { width: 4.6rem;}
+.ttbox .ttbox-con .items .myorder-txt{width: 3.2rem;}
+.ttbox .ttbox-con .items .order-food{width: 1.2rem;height: 1.8rem;overflow: hidden;position: relative;}
+.ttbox .ttbox-con .items .order-food .price{padding: 0; height: auto;position: relative;display: inline-block;overflow: hidden;line-height: .42rem;top: 0;text-align: center;}
+.ttbox .ttbox-con .items .order-food .ttbox-con-txt2{width: 100%;text-align: center;margin-top: 0.2rem;}
+.ttbox .ttbox-con .items .order-food .price .p-yuanjia {width: 1.2rem;position: relative;}
+/*合计商品价格*/
+.cof-box .order-footer {width: 6.7rem;height: .56rem;overflow: hidden;margin: .3rem auto 0.1rem;}
+.cof-box .order-footer .totle{height: .54rem;font-size: .24rem;text-align: center;line-height: .54rem;color: #333;}
+.cof-box .order-footer .sale-res{font-size: .28rem;}
+.cof-box .order-footer .sale-res i.iconfont{font-size: .4rem;color: #D92B17;line-height: .54rem;float: left;margin-right: .1rem;}
+.cof-box .order-footer a>p{width: 1.58rem;height: .52rem;border: 0.02rem solid #D92B17;border-radius: .32rem;font-size: 0.24rem;text-align: center;line-height: .52rem;color: #D92B17;}
+.cof-box .order-footer .active{color:#fff ;background-color: #D92B17;}
+/*消息页面*/
+
+.message-box{width: 7.1rem;height: .8rem; padding: .3rem .2rem;background: #fff;border-bottom: .02rem solid #efefef;font-size: .28rem;color: #333;}
+.message-box .msg-left1{background: url(../img/u907.png) no-repeat left top;}
+.message-box .msg-left2{background: url(../img/u931.png) no-repeat left top;}
+.message-box .msg-left3{background: url(../img/u933.png) no-repeat left top;}
+.message-box .msg-left{width: 3rem;height: .8rem;padding-left: 1rem;background-size: .8rem;line-height: .8rem;}
+.message-box .msg-right{line-height: .8rem;}
+
+/*交易信息页面*/
+.ttbox .bus-end .items{height: 1.2rem;}
+.ttbox .bus-end .items .ttbox-con-img { width: 1.2rem;height: 1.2rem;margin-left: .36rem;}
+.ttbox .bus-end .items .ttbox-con-right{width: 3.6rem; height: 1.2rem;}
+.ttbox .bus-end .items .order-food{height: auto;padding-top: .4rem;}
+.ttbox .ttbox-tit .icon-radio{margin-right: .15rem;color: #D92B17;font-size: .28rem;}
+
+/*退换货页面*/
+.exchange-box ,.exchange-box2,.exchange-tips{width: 7.1rem;padding: .3rem .2rem;background: #fff;border-bottom: .02rem solid #efefef;font-size: .28rem;color: #333;overflow: hidden;}
+.exchange-box{margin-bottom: .2rem;overflow: hidden;}
+.exchange-box div{overflow: hidden;}
+.exchange-box img{width: 1.8rem;height: 1.8rem;display: inline-block;float: left;}
+.exchange-box p{width:5.1rem;display: inline-block;float: left;margin-left: .2rem;}
+.exchange-box2 .exchange-icon{font-size: .6rem;color: #D92B17;}
+.exchange-box2 .msg-right{line-height: .8rem;}
+.exchange-box2 .msg-left{width: 5.6rem;height: .8rem;margin-left:.2rem; line-height: .36rem;color: #333; text-overflow:ellipsis; overflow:hidden;;white-space:nowrap;}
+
+.exchange-tips{width: 7.2rem;background-color: transparent;font-size: .24rem;overflow: hidden;padding: .1rem .1rem .3rem .2rem;}
+.exchange-tips div{margin: .1rem 0;overflow: hidden;}
+.exchange-tips input[type="checkbox"]{float: left;display: inline-block;margin-right: .1rem;}
+.exchange-tips p{float: left;display: inline-block;width: 6.75rem;}
+
+.exchange-button{width: 7.5rem;height: 1rem;background-color: #D92B17;position: fixed;bottom: 0;text-align: center;}
+.exchange-button>a>p{color: #000;font-size: .28rem;line-height: 1rem;}
+
