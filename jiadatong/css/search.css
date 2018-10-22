@@ -1,6 +1,0 @@
-.search-box{margin: 0.2rem;padding: 0.2rem;background-color: #fff;border-radius: .2rem;font-size: .28rem;height: .4rem;}
-.search-box>i.iconfont{font-size: .4rem;color: #ccc;}
-.search-box>input{margin-left: .2rem;line-height: .4rem;}
-.search-history{padding: .2rem .3rem;background-color: #fff;font-size: .28rem;}
-.search-history>ul{overflow: hidden;}
-.search-history>ul>li{width: 2.1rem;height: .8rem;margin:.2rem .1rem;background-color: #efefef;float: left;border-radius: .2rem;text-align: center;line-height: .8rem;text-overflow:ellipsis; overflow:hidden;white-space:nowrap;}
